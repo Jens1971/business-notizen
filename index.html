@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Business Notes</title>
+  <link rel="stylesheet" href="ui.css" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#ff7a00" />
+</head>
+<body>
+  <header class="topbar">
+    <span class="logo">🧠 Business Notes</span>
+    <span id="status" class="status offline">Offline</span>
+  </header>
+
+  <nav class="topics"></nav>
+
+  <main class="editor">
+    <textarea id="note" placeholder="Notiz hier schreiben…"></textarea>
+  </main>
+
+  <section class="comments">
+    <h3>Kommentare</h3>
+    <ul id="commentList"></ul>
+  </section>
+
+  <footer class="comment-input">
+    <input id="commentText" placeholder="Kommentar schreiben…" />
+    <button id="sendComment" aria-label="Kommentar senden">➤</button>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

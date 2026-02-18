@@ -1,0 +1,9 @@
+{
+  "name": "Business Notes",
+  "short_name": "Notes",
+  "start_url": "./",
+  "display": "standalone",
+  "theme_color": "#ff7a00",
+  "background_color": "#ffffff",
+  "icons": []
+}
